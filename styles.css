@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(138, 255, 255);
+}
+nav {
+  background-color: rgb(145, 222, 135);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: saddlebrown;
+}
+ol,
+ul {
+  background-color: rgb(248, 231, 79);
+  color: darkorchid;
+  padding: 1rem;
+  margin: 1rem;
+}
+a {
+  color: saddlebrown;
+}
+h1 {
+  padding: 1rem;
+}
+li {
+  list-style-position: inside;
+}
+img {
+  width: 100%;
+}
