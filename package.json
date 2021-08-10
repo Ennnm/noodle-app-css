@@ -2,6 +2,7 @@
   "name": "noodle-app-css",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/rocketacademy/noodle-app-css#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "eslint": "^7.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "express": "^4.17.1"
   }
 }
