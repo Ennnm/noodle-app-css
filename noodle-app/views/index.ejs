@@ -25,7 +25,7 @@
     <nav class="text-center">nav</nav>
     <h1 class="text-center">Noodle app</h1>
     <div class="container justify-content-center">
-      <section class="d-sm-none row justify-content-center">
+      <section class="d-none d-md-block row justify-content-center">
         <img
           src="https://thewoksoflife.com/wp-content/uploads/2019/06/scallion-oil-noodles-15.jpg"
           img
@@ -52,6 +52,18 @@
           <a href="/category/?category=<%=cat%>"><%=cat%> recipes</a
           ><br />
           <% }) %>
+        </ul>
+        <ul class="col-10">
+          <h2>Input a new recipe</h2>
+          <form action="/input" method="POST">
+            <label for="label">recipe label:</label><br />
+            <input type="text" id="label" name="label" /><br />
+            <label for="ingredients">ingredients:</label><br />
+            <input type="text" id="ingredients" name="ingredients" /><br />
+            <label for="category">category:</label><br />
+            <input type="text" id="category" name="category" /><br />
+            <input type="submit" value="Submit" />
+          </form>
         </ul>
       </section>
     </div>
